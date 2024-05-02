@@ -1,8 +1,13 @@
 # ~/.config/starship.toml
 
-add_newline = false
+add_newline = true
 command_timeout = 1000
-format = """$os$username$hostname$kubernetes$directory$git_branch$git_status"""
+
+# Change the default prompt format
+format = """\
+[╭╴](238)$os\
+$all[╰─](238)$character"""
+# format = """$os$username$hostname$kubernetes$directory$git_branch$git_status"""
 
 # Drop ugly default prompt characters
 [character]
