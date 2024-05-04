@@ -51,7 +51,7 @@
         "defaults": 
         {
             "colorScheme": "customPurple",
-            "cursorShape": "filledBox",
+            "cursorShape": "underscore",
             "font": 
             {
                 "face": "JetBrainsMonoNL Nerd Font",
